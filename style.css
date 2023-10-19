@@ -1,0 +1,85 @@
+body {
+    background-color: #f7f7f7;
+    font-family: 'Arial', sans-serif;
+}
+.navbar {
+    background-color: #343a40; /* Dark gray */
+}
+ .navbar-brand, .navbar-nav .nav-link {
+ 
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #ece7dd;
+}
+.navbar-brand{
+    margin-left: 10px;
+}
+.navbar-toggler-icon {
+    background-color: wheat;
+    border: none;
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #343a40; /* Dark gray */
+}
+
+#banner {
+    background-color: #064332; /* Blue */
+    color: #e2f2e2;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+#projects{
+    background-color: #ECE7DD;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+#projects .card {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#contact .form-group {
+    margin-bottom: 20px;
+}
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.btn-primary {
+    background-color: #007bff; /* Blue */
+    border: none;
+    border-radius: 5px;
+}
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue */
+}
+.btn-primary:focus {
+    box-shadow: none;
+}
+.lead{
+    font-weight: 600;
+}
+img{
+    height: 150px;
+}
+.card-title{
+    font-weight: revert;
+}
+.card-text{
+    font-size: 17px;
+}
